@@ -71,7 +71,7 @@ input:focus,select:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 4px
 <div class="page">
   <aside class="side">
     <a class="brand" href="<?= base_url('index'); ?>">
-      <img src="dist/assets/img/icon-landing.png" alt="">SPK <span>Bantuan</span>
+      <img src="dist/assets/img/landing_icon.png" alt="">SPK <span>Bantuan Desa</span>
     </a>
     <div>
       <h1>Kelola penilaian bantuan desa dengan data.</h1>
@@ -83,7 +83,7 @@ input:focus,select:focus{outline:0;border-color:var(--blue);box-shadow:0 0 0 4px
   <main class="main">
     <div class="box">
       <a class="brand mobile-brand" href="<?= base_url('index'); ?>">
-        <img src="dist/assets/img/icon-landing.png" alt="" style="background:none;padding:0">SPK <span>Bantuan</span>
+        <img src="dist/assets/img/icon-landing.png" alt="icon-landing-SPK" style="background:none;padding:0">SPK <span>Bantuan Desa</span>
       </a>
 
       <h2>Masuk ke sistem</h2>

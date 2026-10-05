@@ -136,7 +136,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 
 <nav class="nav">
   <div class="wrap">
-    <a class="brand" href="#beranda"><img src="dist/assets/img/icon-landing.png" alt="">SPK <span>Bantuan</span></a>
+    <a class="brand" href="#beranda"><img src="dist/assets/img/landing_icon.png" alt="">SPK <span>Bantuan Desa</span></a>
     <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><i class="bi bi-list"></i></button>
     <ul class="menu" id="menu">
       <li><a href="#beranda">Beranda</a></li>
