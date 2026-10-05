@@ -1,0 +1,33 @@
+CRITICAL - 2026-04-30 05:29:20 --> ErrorException: Undefined property: App\Controllers\DetailAnggota::$keluargaModel
+[Method: GET, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 51.
+ 1 APPPATH\Controllers\DetailAnggota.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\DetailAnggota::$keluargaModel', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 05:34:00 --> Error: Class "App\Controllers\KeluargaModel" not found
+[Method: GET, Route: detailanggota]
+in APPPATH\Controllers\DetailAnggota.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(921): App\Controllers\DetailAnggota->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-30 06:15:10 --> ParseError: syntax error, unexpected token ";", expecting "function"
+[Method: GET, Route: pekerjaan/getpekerjaan]
+in APPPATH\Controllers\Pekerjaan.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\Pekerjaan.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pekerjaan')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pekerjaan')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Pekerjaan')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('pekerjaan/getpekerjaan')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

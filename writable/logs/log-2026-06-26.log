@@ -1,0 +1,27 @@
+DEBUG - 2026-06-26 05:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-26 05:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-26 05:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-26 05:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-26 05:44:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-26 06:19:45 --> ErrorException: Undefined property: App\Controllers\Kriteria::$kriteriaModel
+[Method: POST, Route: kriteria/deleteKriteria]
+in APPPATH\Controllers\Kriteria.php on line 87.
+ 1 APPPATH\Controllers\Kriteria.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Kriteria::$kriteriaModel', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\Kriteria.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->deleteKriteria()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-26 06:48:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kriteria/kriteria_dash.php"
+[Method: GET, Route: kriteria]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kriteria/kriteria_dash.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/kriteria_dash', [], true)
+ 3 APPPATH\Controllers\Kriteria.php(22): view('kriteria/kriteria_dash', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

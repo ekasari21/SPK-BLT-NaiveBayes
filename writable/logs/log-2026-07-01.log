@@ -1,0 +1,243 @@
+CRITICAL - 2026-07-01 03:22:55 --> ErrorException: Undefined variable $selected
+[Method: GET, Route: tambahanggota]
+in APPPATH\Views\penduduk\formAddAnggotaKK.php on line 66.
+ 1 APPPATH\Views\penduduk\formAddAnggotaKK.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $selected', 'C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\formAddAnggotaKK.php', 66)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\formAddAnggotaKK.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/formAddAnggotaKK', [], true)
+ 5 APPPATH\Views\penduduk\tambahAnggota.php(215): view('penduduk/formAddAnggotaKK')
+ 6 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 7 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 9 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-01 03:35:05 --> ErrorException: Undefined variable $hubungan_keluarga
+[Method: GET, Route: tambahanggota]
+in APPPATH\Views\penduduk\formAddAnggotaKK.php on line 65.
+ 1 APPPATH\Views\penduduk\formAddAnggotaKK.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hubungan_keluarga', 'C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\formAddAnggotaKK.php', 65)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\formAddAnggotaKK.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/formAddAnggotaKK', [], true)
+ 5 APPPATH\Views\penduduk\tambahAnggota.php(215): view('penduduk/formAddAnggotaKK')
+ 6 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 7 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 9 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-01 04:22:01 --> ParseError: syntax error, unexpected token "*"
+[Method: POST, Route: detailAnggota/simpanAnggotaKeluarga]
+in APPPATH\Controllers\DetailAnggota.php on line 111.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DetailAnggota')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DetailAnggota')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\DetailAnggota')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('detailAnggota/simpanAnggotaKeluarga')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-01 04:22:19 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: tambahanggota]
+in APPPATH\Views\penduduk\tambahAnggota.php on line 40.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 04:22:27 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 04:22:27 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 160.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(160): number_format(null, 0, ',', '.')
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-01 04:25:05 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: tambahanggota]
+in APPPATH\Views\penduduk\tambahAnggota.php on line 40.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-01 04:28:07 --> ErrorException: Trying to access array offset on null
+[Method: GET, Route: tambahanggota]
+in APPPATH\Views\penduduk\tambahAnggota.php on line 40.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on null', 'C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php', 40)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 04:28:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-07-01 04:32:32 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-07-01 04:33:04 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 04:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-07-01 04:33:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 04:33:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-07-01 04:39:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 04:39:46 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 04:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2026-07-01 06:29:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2026-07-01 06:29:06 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\penduduk\tambahAnggota.php on line 150.
+ 1 APPPATH\Views\penduduk\tambahAnggota.php(150): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\tambahAnggota.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahanggota', [], true)
+ 5 APPPATH\Controllers\Keluarga.php(41): view('penduduk/tambahanggota', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->tambahanggota()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-01 06:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-01 06:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

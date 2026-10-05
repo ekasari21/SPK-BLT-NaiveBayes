@@ -1,0 +1,36 @@
+CRITICAL - 2026-05-01 11:17:59 --> ErrorException: Undefined property: CodeIgniter\View\View::$uri
+[Method: GET, Route: detailanggota]
+in APPPATH\Views\dashboard\sidebar_view.php on line 49.
+ 1 APPPATH\Views\dashboard\sidebar_view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\laragon\\www\\program_bltd\\app\\Views\\dashboard\\sidebar_view.php', 49)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\dashboard\\sidebar_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard/sidebar_view', [], true)
+ 5 APPPATH\Views\penduduk\penduduk_view.php(7): view('dashboard/sidebar_view')
+ 6 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\penduduk_view.php')
+ 7 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/penduduk_view', [], true)
+ 9 APPPATH\Controllers\DetailAnggota.php(21): view('penduduk/penduduk_view')
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 11:21:08 --> ErrorException: Undefined property: CodeIgniter\View\View::$uri
+[Method: GET, Route: detailanggota]
+in APPPATH\Views\dashboard\sidebar_view.php on line 49.
+ 1 APPPATH\Views\dashboard\sidebar_view.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$uri', 'C:\\laragon\\www\\program_bltd\\app\\Views\\dashboard\\sidebar_view.php', 49)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\dashboard\\sidebar_view.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('dashboard/sidebar_view', [], true)
+ 5 APPPATH\Views\penduduk\penduduk_view.php(7): view('dashboard/sidebar_view')
+ 6 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\penduduk\\penduduk_view.php')
+ 7 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/penduduk_view', [], true)
+ 9 APPPATH\Controllers\DetailAnggota.php(21): view('penduduk/penduduk_view')
+10 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

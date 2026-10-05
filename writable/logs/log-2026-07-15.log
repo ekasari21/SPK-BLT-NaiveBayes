@@ -1,0 +1,372 @@
+CRITICAL - 2026-07-15 08:47:18 --> ErrorException: Undefined variable $PersetujuanModel
+[Method: POST, Route: cekStatusKelayakan]
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PersetujuanModel', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-07-15 08:48:05 --> Unknown column 'pp.id_dataset' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 5 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:48:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pp.id_dataset' in 'on clause'
+[Method: POST, Route: cekStatusKelayakan]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 2 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:48:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pp.id_dataset' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 4 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:48:05 --> [Caused by] mysqli_sql_exception: Unknown column 'pp.id_dataset' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_dataset`=`d`.`id_dataset`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 5 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-07-15 08:50:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_hasil`
+WHERE `k`.`no_kk` = '1111111111110004'
+AND `d`.`status` = 'Testing'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 5 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:50:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_hasil`
+WHERE `k`.`no_kk` = '1111111111110004'
+AND `d`.`status` = 'Testing'' at line 5
+[Method: POST, Route: cekStatusKelayakan]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 2 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:50:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_hasil`
+WHERE `k`.`no_kk` = '1111111111110004'
+AND `d`.`status` = 'Testing'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 4 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:50:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`id_hasil`
+WHERE `k`.`no_kk` = '1111111111110004'
+AND `d`.`status` = 'Testing'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = \'1111111111110004\'
+AND `d`.`status` = \'Testing\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`no_kk`, `d`.`id_dataset`, `d`.`label_prediksi`, `hp`.`hasil`, `hp`.`probabilitas_layak`, `hp`.`probabilitas_tidak_layak`, `pp`.`id_persetujuan`
+FROM `keluarga` `k`
+JOIN `dataset` `d` ON `d`.`id_kk`=`k`.`id_kk`
+LEFT JOIN `hasil_prediksi` `hp` ON `hp`.`id_dataset`=`d`.`id_dataset`
+LEFT JOIN `persetujuan_penerima` `pp` ON `pp`.`id_hasil`=`hp`..`id_hasil`
+WHERE `k`.`no_kk` = :k.no_kk:
+AND `d`.`status` = :d.status:', [...], false)
+ 5 APPPATH\Models\PersetujuanModel.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(39): App\Models\PersetujuanModel->cekStatusKelayakan('1111111111110004')
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:58:10 --> Error: Class "App\Controllers\DatasetModel" not found
+[Method: POST, Route: cekStatusKelayakan]
+in APPPATH\Controllers\Home.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-07-15 08:58:46 --> ErrorException: Undefined variable $PersetujuanModel
+[Method: POST, Route: cekStatusKelayakan]
+in APPPATH\Controllers\Home.php on line 39.
+ 1 APPPATH\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PersetujuanModel', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\Home.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Home->cekStatusKelayakan()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-15 09:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:23:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-07-15 09:43:31 --> ParseError: syntax error, unexpected token "."
+[Method: GET, Route: cekstatus]
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Home')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('cekstatus')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-07-15 09:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 09:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 10:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-07-15 14:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

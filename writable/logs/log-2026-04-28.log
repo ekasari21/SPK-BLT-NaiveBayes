@@ -1,0 +1,482 @@
+ERROR - 2026-04-28 12:26:28 --> Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:26:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+[Method: GET, Route: keluarga/getData]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:26:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:26:28 --> [Caused by] mysqli_sql_exception: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-28 12:27:07 --> Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+[Method: GET, Route: keluarga/getData]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:08 --> [Caused by] mysqli_sql_exception: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.*, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-28 12:27:57 --> Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+[Method: GET, Route: keluarga/getData]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:27:57 --> [Caused by] mysqli_sql_exception: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-28 12:28:08 --> Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:28:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+[Method: GET, Route: keluarga/getData]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 2 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:28:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 4 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-28 12:28:08 --> [Caused by] mysqli_sql_exception: Table 'program_bltd.dusun' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `keluarga`.`id_dusun`, `keluarga`.`id_rw`, `keluarga`.`id_rt`, `dusun`.`nama_dusun`, `rw`.`nama_rw`, `rt`.`nama_rt`
+FROM `keluarga`
+LEFT JOIN `dusun` ON `dusun`.`id_dusun` = `keluarga`.`id_dusun`
+LEFT JOIN `rw` ON `rw`.`id_rw` = `keluarga`.`id_rw`
+LEFT JOIN `rt` ON `rt`.`id_rt` = `keluarga`.`id_rt`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(40): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-28 12:30:51 --> Unknown column 'keluarga.id_keluarga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(50): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-04-28 12:31:51 --> Unknown column 'keluarga.id_keluarga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `keluarga`.`id_keluarga`, `keluarga`.`no_kk`, `keluarga`.`kepala_keluarga`, `keluarga`.`alamat`, `keluarga`.`jumlah_anggota`, `rt`.`id_wilayah` as `id_rt`, `rw`.`id_wilayah` as `id_rw`, `dusun`.`id_wilayah` as `id_dusun`, `rt`.`nama_wilayah` as `nama_rt`, `rw`.`nama_wilayah` as `nama_rw`, `dusun`.`nama_wilayah` as `nama_dusun`
+FROM `keluarga`
+LEFT JOIN `wilayah` as `rt` ON `rt`.`id_wilayah` = `keluarga`.`id_rt`
+LEFT JOIN `wilayah` as `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` as `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 5 SYSTEMPATH\Model.php(253): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Keluarga.php(50): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

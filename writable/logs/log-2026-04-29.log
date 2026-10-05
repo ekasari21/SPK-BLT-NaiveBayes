@@ -1,0 +1,34 @@
+CRITICAL - 2026-04-29 09:25:40 --> ParseError: syntax error, unexpected identifier "data", expecting "]"
+[Method: GET, Route: detailanggota]
+in APPPATH\Controllers\DetailAnggota.php on line 47.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DetailAnggota')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DetailAnggota')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\DetailAnggota')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('detailanggota')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 09:28:57 --> ErrorException: Undefined array key "no_kk"
+[Method: GET, Route: detailanggota/getdata]
+in APPPATH\Controllers\DetailAnggota.php on line 31.
+ 1 APPPATH\Controllers\DetailAnggota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-04-29 09:29:17 --> ErrorException: Undefined array key "no_kk"
+[Method: GET, Route: detailanggota/getdata]
+in APPPATH\Controllers\DetailAnggota.php on line 31.
+ 1 APPPATH\Controllers\DetailAnggota.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "no_kk"', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->getData()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

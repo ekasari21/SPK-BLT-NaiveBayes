@@ -1,0 +1,1309 @@
+CRITICAL - 2026-06-27 03:49:33 --> ParseError: syntax error, unexpected token "public", expecting "," or ";"
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Controllers\Kriteria.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\Kriteria.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Kriteria')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Kriteria')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Kriteria')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('nilaiKriteria')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 03:49:50 --> Error: Class "App\Models\NilaiKriteriaModel" not found
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Controllers\Kriteria.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(921): App\Controllers\Kriteria->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 05:02:33 --> ErrorException: Cannot redeclare App\Controllers\Kriteria::updateNilaiKriteria()
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Controllers\Kriteria.php on line 151.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-27 05:46:14 --> ErrorException: Undefined variable $kriteria
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Views\Kriteria\nilaiKriteria.php on line 186.
+ 1 APPPATH\Views\Kriteria\nilaiKriteria.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kriteria', 'C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php', 186)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/nilaiKriteria', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(34): view('kriteria/nilaiKriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->nilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 05:47:39 --> ErrorException: Undefined variable $data
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Views\Kriteria\nilaiKriteria.php on line 186.
+ 1 APPPATH\Views\Kriteria\nilaiKriteria.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php', 186)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/nilaiKriteria', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(34): view('kriteria/nilaiKriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->nilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 05:50:17 --> ErrorException: Cannot redeclare App\Controllers\Kriteria::nilaiKriteria()
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Controllers\Kriteria.php on line 177.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-06-27 05:50:29 --> ErrorException: Undefined variable $kriteria
+[Method: GET, Route: nilaiKriteria]
+in APPPATH\Views\Kriteria\nilaiKriteria.php on line 186.
+ 1 APPPATH\Views\Kriteria\nilaiKriteria.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kriteria', 'C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php', 186)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\laragon\\www\\program_bltd\\app\\Views\\Kriteria\\nilaiKriteria.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('kriteria/nilaiKriteria', [], true)
+ 5 APPPATH\Controllers\Kriteria.php(34): view('kriteria/nilaiKriteria', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->nilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:11:17 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:11:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+[Method: POST, Route: kriteria/simpanNilaiKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:11:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:11:17 --> [Caused by] mysqli_sql_exception: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:12:00 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+[Method: POST, Route: kriteria/simpanNilaiKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:00 --> [Caused by] mysqli_sql_exception: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:12:42 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+[Method: POST, Route: kriteria/simpanNilaiKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:12:42 --> [Caused by] mysqli_sql_exception: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:13:52 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:13:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+[Method: POST, Route: kriteria/simpanNilaiKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:13:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:13:52 --> [Caused by] mysqli_sql_exception: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'77\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:15:05 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:15:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+[Method: POST, Route: kriteria/simpanNilaiKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:15:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 06:15:05 --> [Caused by] mysqli_sql_exception: Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'kkj\', \'9\', \'hhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(194): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 06:18:37 --> Column 'kategori' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'7\', \'bhhh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'7\', \'bhhh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (\'1\', NULL, \'ggg\', \'7\', \'bhhh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `nilai_kriteria` (`id_kriteria`, `kategori`, `nilai`, `skor`, `keterangan`) VALUES (:id_kriteria:, :kategori:, :nilai:, :skor:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(355): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(668): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Kriteria.php(195): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->simpanNilaiKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 08:37:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: kriteria/deleteKriteria]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2819.
+ 1 SYSTEMPATH\Model.php(441): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Kriteria.php(121): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->deleteKriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 08:37:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Deletes are not allowed unless they contain a "where" or "like" clause.
+[Method: POST, Route: kriteria/deleteKriteria]
+in SYSTEMPATH\Database\BaseBuilder.php on line 2819.
+ 1 SYSTEMPATH\Model.php(441): CodeIgniter\Database\BaseBuilder->delete()
+ 2 SYSTEMPATH\BaseModel.php(1207): CodeIgniter\Model->doDelete(null, false)
+ 3 APPPATH\Controllers\Kriteria.php(121): CodeIgniter\BaseModel->delete(null)
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->deleteKriteria()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 09:16:56 --> Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+[Method: GET, Route: kriteria/getDetailKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:56 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 09:16:58 --> Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+[Method: GET, Route: kriteria/getDetailKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:16:58 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 09:17:00 --> Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+[Method: GET, Route: kriteria/getDetailKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:00 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('1')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 09:17:29 --> Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('3')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+[Method: GET, Route: kriteria/getDetailKriteria]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('3')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 7 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('3')
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 09:17:29 --> [Caused by] mysqli_sql_exception: Not unique table/alias: 'kriteria'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = \'3\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `nilai_kriteria`.*, `kriteria`.`nama_kriteria`
+FROM `kriteria`
+JOIN `kriteria` ON `kriteria`.`id_kriteria` = `nilai_kriteria`.`id_kriteria`
+WHERE `kriteria`.`id_kriteria` = :kriteria.id_kriteria:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(295): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(714): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\KriteriaModel.php(18): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Kriteria.php(200): App\Models\KriteriaModel->getDatabyId('3')
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Kriteria->getDetailKriteria()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kriteria))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 11:04:27 --> Error: Class "App\Models\DetailKeluargaModel" not found
+[Method: GET, Route: keluarga]
+in APPPATH\Controllers\Keluarga.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(921): App\Controllers\Keluarga->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 11:47:27 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: keluarga]
+in APPPATH\Controllers\Keluarga.php on line 91.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\Keluarga.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Keluarga')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Keluarga')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\Keluarga')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('keluarga')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-06-27 13:17:52 --> Unknown column 'k.kepala_keluarga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 5 APPPATH\Models\KeluargaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Keluarga.php(25): App\Models\KeluargaModel->getDataWithWilayah()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:17:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.kepala_keluarga' in 'field list'
+[Method: GET, Route: keluarga/getData]
+in SYSTEMPATH\Database\BaseConnection.php on line 865.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 2 APPPATH\Models\KeluargaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Keluarga.php(25): App\Models\KeluargaModel->getDataWithWilayah()
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:17:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'k.kepala_keluarga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 4 APPPATH\Models\KeluargaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Keluarga.php(25): App\Models\KeluargaModel->getDataWithWilayah()
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:17:52 --> [Caused by] mysqli_sql_exception: Unknown column 'k.kepala_keluarga' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(910): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `k`.`id_kk`, `k`.`no_kk`, `k`.`kepala_keluarga`, `k`.`alamat`, `k`.`jumlah_anggota`, `rt`.`id_wilayah` AS `id_rt`, `rw`.`id_wilayah` AS `id_rw`, `dusun`.`id_wilayah` AS `id_dusun`, `rt`.`nama_wilayah` AS `nama_rt`, `rw`.`nama_wilayah` AS `nama_rw`, `dusun`.`nama_wilayah` AS `nama_dusun`
+FROM `keluarga` `k`
+LEFT JOIN `wilayah` `rt` ON `rt`.`id_wilayah` = `k`.`id_rt`
+LEFT JOIN `wilayah` `rw` ON `rw`.`id_wilayah` = `rt`.`parent_id`
+LEFT JOIN `wilayah` `dusun` ON `dusun`.`id_wilayah` = `rw`.`parent_id`', [], false)
+ 5 APPPATH\Models\KeluargaModel.php(47): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Keluarga.php(25): App\Models\KeluargaModel->getDataWithWilayah()
+ 7 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getData()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:36:58 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:36:59 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:37:00 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:37:00 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:37:00 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:06 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 13:38:07 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::findAll()
+[Method: GET, Route: keluarga/getDetailAnggota]
+in APPPATH\Models\DetailAnggotaModel.php on line 74.
+ 1 APPPATH\Controllers\Keluarga.php(113): App\Models\DetailAnggotaModel->getByKK('2')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Keluarga->getDetailAnggota()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 14:25:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailanggota/tambahPenduduk.php"
+[Method: GET, Route: detailanggota/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailanggota/tambahPenduduk.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('detailanggota/tambahPenduduk', [], true)
+ 3 APPPATH\Controllers\DetailAnggota.php(71): view('detailanggota/tambahPenduduk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->create()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 14:25:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "detailanggota/tambahPenduduk.php"
+[Method: GET, Route: detailanggota/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailanggota/tambahPenduduk.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('detailanggota/tambahPenduduk', [], true)
+ 3 APPPATH\Controllers\DetailAnggota.php(71): view('detailanggota/tambahPenduduk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->create()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 14:26:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/template.php"
+[Method: GET, Route: detailanggota/create]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/template.php')
+ 2 SYSTEMPATH\View\View.php(256): CodeIgniter\View\View->render('layout/template', [], true)
+ 3 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('penduduk/tambahPenduduk', [], true)
+ 4 APPPATH\Controllers\DetailAnggota.php(71): view('penduduk/tambahPenduduk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->create()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:05:20 --> ErrorException: Undefined variable $id_kk
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 53.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kk', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:05:22 --> ErrorException: Undefined variable $id_kk
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 53.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kk', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:05:23 --> ErrorException: Undefined variable $id_kk
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 53.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kk', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:05:23 --> ErrorException: Undefined variable $id_kk
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 53.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kk', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:05:30 --> ErrorException: Undefined variable $id_kk
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Controllers\DetailAnggota.php on line 53.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_kk', 'C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php', 53)
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:30 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: detailanggota]
+in APPPATH\Controllers\DetailAnggota.php on line 55.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\program_bltd\\app\\Controllers\\DetailAnggota.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\DetailAnggota')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\DetailAnggota')
+ 4 SYSTEMPATH\Router\Router.php(792): class_exists('\\App\\Controllers\\DetailAnggota')
+ 5 SYSTEMPATH\Router\Router.php(230): CodeIgniter\Router\Router->processRouteAttributes()
+ 6 SYSTEMPATH\CodeIgniter.php(829): CodeIgniter\Router\Router->handle('detailanggota')
+ 7 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:49 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:50 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:06:51 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:07:19 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:07:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:07:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:08:19 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:08:20 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-06-27 15:08:21 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+[Method: POST, Route: detailanggota/cekKK]
+in APPPATH\Models\KeluargaModel.php on line 62.
+ 1 APPPATH\Controllers\DetailAnggota.php(53): App\Models\KeluargaModel->cekKKbyId('1111111111110002')
+ 2 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\DetailAnggota->cekKK()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DetailAnggota))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
